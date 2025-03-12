@@ -24,6 +24,15 @@ public class HomePage {
 	@FindBy(linkText = "Products")
 	private WebElement productlnk;
 	
+	@FindBy(linkText = "Calendar")
+	private WebElement calendarlnk;
+	
+	
+	
+	public WebElement getCalendarlnk() {
+		return calendarlnk;
+	}
+
 	public WebElement getProductlnk() {
 		return productlnk;
 	}
