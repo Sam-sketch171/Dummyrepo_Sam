@@ -28,9 +28,8 @@ public class Clinique {
         for (WebElement item : menuItems) {
       	  System.out.println("I created all these");
       	  System.out.println("Teju did some changes");
-      	  System.out.println("just now modified");
-
-            System.out.println(item.getText());
+      	  System.out.println(" modified");
+           System.out.println(item.getText());
 
 	}
 
