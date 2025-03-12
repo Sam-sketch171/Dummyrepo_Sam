@@ -42,8 +42,7 @@ public class Clinique {
 
             System.out.println(item.getText());
             
-            System.out.println("good afternoon");
-            
+            System.out.println("good evening");
             
 
 
