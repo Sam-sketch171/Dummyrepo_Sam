@@ -18,6 +18,10 @@ public class OpportunitiesPage {
 	public WebElement getNewOpptuBtn() {
 		System.out.println("create opprtuntiy page is created");
 		return newOpptuBtn;
+		
+		
+		
+		
 	}
 	
 }
