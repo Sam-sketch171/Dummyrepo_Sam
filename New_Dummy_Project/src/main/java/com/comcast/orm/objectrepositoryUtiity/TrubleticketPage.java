@@ -25,6 +25,9 @@ public class TrubleticketPage {
 	@FindBy(id="viewname")
 	private WebElement filtersBtn;
 	
+	@FindBy(xpath="//img[@title='Open Calculator...']")
+	private WebElement calenderBtn;
+	
 	public WebElement getSaveBtn() {
 		return saveBtn;
 	}
