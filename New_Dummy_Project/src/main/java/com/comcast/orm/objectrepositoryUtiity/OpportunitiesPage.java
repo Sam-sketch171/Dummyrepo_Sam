@@ -17,6 +17,10 @@ public class OpportunitiesPage {
 	private WebElement newOpptuBtn;
 	public WebElement getNewOpptuBtn() {
 		System.out.println("create opprtuntiy page is created");
+		System.out.println("navigate to opprtn page");
+		System.out.println("opertion done to opprtn page");
+		System.out.println("closed to opprtn page");
+		
 		return newOpptuBtn;
 		
 		
