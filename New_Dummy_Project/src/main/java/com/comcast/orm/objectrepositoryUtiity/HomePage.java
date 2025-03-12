@@ -24,8 +24,15 @@ public class HomePage {
 	@FindBy(linkText = "Products")
 	private WebElement productlnk;
 	
+	@FindBy(linkText = "Dashboard")
+	private WebElement dashboardlnk;
+	
 	public WebElement getProductlnk() {
 		return productlnk;
+	}
+
+	public WebElement getDashboardlnk() {
+		return dashboardlnk;
 	}
 
 	public WebElement getCampaignlnk() {
