@@ -36,8 +36,10 @@ public class Clinique {
            System.out.println(item.getText());
 
 
-      	  System.out.println("Amrutha shashanka tejuashwini sravani and meeeeeee");
+      	  System.out.println("Amrutha shashanka tejashwini sravani and meeeeeee");
       	  System.out.println("TL not responding");
+      	  
+      	  System.out.println("no need to modify now");
 
 
             System.out.println(item.getText());
