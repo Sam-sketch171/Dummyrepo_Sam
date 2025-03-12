@@ -27,6 +27,7 @@ public class Clinique {
         System.out.println("Skin Care Menu Items:");
         for (WebElement item : menuItems) {
       	  System.out.println("I created all these");
+      	  System.out.println("Teju did some changes");
             System.out.println(item.getText());
 
 	}
