@@ -16,10 +16,10 @@ public class OpportunitiesPage {
 	private WebElement newOpptuBtn;
 	public WebElement getNewOpptuBtn() {
 
+
 		System.out.println("changes have been done");
 
 		System.out.println("create opprtuntiy page is created");
-
 		return newOpptuBtn;
 	}
 	
