@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.decorators.WebDriverDecorator;
 
 
 
@@ -35,8 +34,15 @@ public class Clinique {
       	  System.out.println(" modified");
            System.out.println(item.getText());
 
+           System.out.println("hai hello");
+         
+         
+      	  System.out.println("Amrutha shashanka tejuashwini sravani and meeeeeee");
+
+
 
       	  System.out.println("Amrutha shashanka tejashwini sravani and meeeeeee");
+
       	  System.out.println("TL not responding");
       	  
       	  System.out.println("no need to modify now");
