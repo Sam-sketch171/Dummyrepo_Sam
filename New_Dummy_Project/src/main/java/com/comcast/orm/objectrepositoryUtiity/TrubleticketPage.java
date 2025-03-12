@@ -22,6 +22,9 @@ public class TrubleticketPage {
 	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
 	private WebElement saveBtn;
 	
+	@FindBy(id="viewname")
+	private WebElement filtersBtn;
+	
 	public WebElement getSaveBtn() {
 		return saveBtn;
 	}
@@ -35,6 +38,12 @@ public class TrubleticketPage {
 
 	public WebElement getTicketprioverify() {
 		return Ticketprioverify;
+	}
+	
+	
+
+	public WebElement getFiltersBtn() {
+		return filtersBtn;
 	}
 
 	@FindBy(name = "ticketpriorities")
