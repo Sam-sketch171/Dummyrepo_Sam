@@ -32,6 +32,10 @@ public class Clinique {
 
       	  System.out.println("Teju did some changes");
 
+      	  System.out.println("Amru shashank teju srav and me");
+
+
+
             System.out.println(item.getText());
 
 	}
