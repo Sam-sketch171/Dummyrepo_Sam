@@ -51,6 +51,7 @@ public class Clinique {
             System.out.println(item.getText());
             
             System.out.println("good evening");
+            System.out.println("a new person added i.e, sam");
             
 
 
