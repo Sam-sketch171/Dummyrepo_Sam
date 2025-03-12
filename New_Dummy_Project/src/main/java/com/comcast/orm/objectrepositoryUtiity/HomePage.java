@@ -23,7 +23,17 @@ public class HomePage {
 	
 	@FindBy(linkText = "Products")
 	private WebElement productlnk;
+
+	@FindBy(xpath = "//img[@title='Chat...']")
+	private WebElement chatLink;
 	
+	
+	public WebElement getChatLink() {
+		return chatLink;
+	}
+
+
+
 	@FindBy(linkText = "Calendar")
 	private WebElement calendarlnk;
 	
@@ -36,6 +46,8 @@ public class HomePage {
 	public WebElement getProductlnk() {
 		return productlnk;
 	}
+
+	
 
 	public WebElement getCampaignlnk() {
 		return campaignlnk;
