@@ -24,16 +24,21 @@ public class HomePage {
 	@FindBy(linkText = "Products")
 	private WebElement productlnk;
 	
-	@FindBy(linkText = "Dashboard")
-	private WebElement dashboardlnk;
+	@FindBy(xpath = "//img[@title='Chat...']")
+	private WebElement chatLink;
 	
+	
+	public WebElement getChatLink() {
+		return chatLink;
+	}
+
+
+
 	public WebElement getProductlnk() {
 		return productlnk;
 	}
 
-	public WebElement getDashboardlnk() {
-		return dashboardlnk;
-	}
+	
 
 	public WebElement getCampaignlnk() {
 		return campaignlnk;
