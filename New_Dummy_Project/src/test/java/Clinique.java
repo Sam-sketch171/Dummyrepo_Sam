@@ -32,7 +32,7 @@ public class Clinique {
 
       	  System.out.println("Teju did some changes");
 
-      	  System.out.println("Amru shashanka teju srav and me");
+      	  System.out.println("Amru shashanka teju srav and vidhy");
 
 
 
