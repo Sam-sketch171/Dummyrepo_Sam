@@ -14,4 +14,6 @@ public class CalenderPage {
 	
 	@FindBy(xpath = "//img[@title='Open Calendar...']")
 	private WebElement openCalendarBtn;
+	
+	
 }

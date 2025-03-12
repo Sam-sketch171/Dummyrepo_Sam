@@ -16,6 +16,10 @@ public class OpportunitiesPage {
 	private WebElement newOpptuBtn;
 	public WebElement getNewOpptuBtn() {
 		return newOpptuBtn;
+		
+		
+		
+		
 	}
 	
 }
