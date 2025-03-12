@@ -15,6 +15,7 @@ public class OpportunitiesPage {
 	@FindBy(xpath="//img[@title='Create Opportunity...']")
 	private WebElement newOpptuBtn;
 	public WebElement getNewOpptuBtn() {
+		System.out.println("create opprtuntiy page is created");
 		return newOpptuBtn;
 	}
 	
